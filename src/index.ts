@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const PORT = 8000;
+const PORT = 10000;
 
 app.get("/", async function (req, res) {
   res.send("Hello!");
